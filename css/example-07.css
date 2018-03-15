@@ -1,0 +1,39 @@
+@charset "utf-8";
+body {
+    margin: 0;
+}
+.container{
+    border: 1px solid black;
+    margin: 50px;
+}
+.box1{
+    width: 200px;
+    height: 200px;
+    background-color: yellow;
+    margin: 2em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+    /* transition-property: all;
+    transition-duration: 2s;
+    transition-delay: 0s;
+    transition-timing-function: cubic-bezier(0,.66,1,0); */
+    transition: all 2000ms 0s cubic-bezier(0,.66,1,0);
+    /* text-align: center;
+    line-height: 200px; */
+    
+}
+
+.box1:hover, .box1:focus{
+    border-radius: 50%;
+    background-color:pink;
+    transform:translateX(300px);
+    
+}
+.box-act{
+    border-radius: 50%;
+    background-color:pink;
+    transform:translateX(300px);
+    
+}
