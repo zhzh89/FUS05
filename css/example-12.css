@@ -90,7 +90,7 @@ body{
         border-radius: 100px;
         width: 100%;
         height: 25%;
-        cursor: pointer;
+        transition: all 200ms;
     }
     .menubar-top{
 
@@ -146,6 +146,9 @@ body{
         margin: 0 auto;
     }
     /* 모바일 메뉴 */
+    .btn-wrapper{
+        display: none;
+    }
     .menu{
         display: flex;
         justify-content: space-around;
@@ -175,6 +178,9 @@ body{
         width: 20%;
     }
     /* 데스크탑 메뉴 */
+    .btn-wrapper{
+        display: none;
+    }
     .menu{
         grid-area: menu;
         display: flex;
